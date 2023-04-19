@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    font-size: 1.5rem;
+    padding: 0 0.75rem;
+    align-items: center;
+    
+
+}
+#navbar h1{
+    color: #fff;
+
+}
+#navbar ul{
+    display: flex;
+    list-style-type: none;
+}
+#navbar ul li a{
+    color: #fff;
+text-decoration: none;
+    padding: 0 0.53rem;
+}
+#navbar ul li a:hover{
+    background-color: #a7a7a767;
+    border-radius: 5px;
+    color: #a7a7a7;
+    padding: 5px;
+    transition: 0.5s;
+
+}
+#middle-section {
+    height:80vh;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+}
+#middle-section img{
+  max-width: 100%;
+  width: 28vw;
+  height: auto;
+  border-radius: 100%;
+}
+#middle-section hr{
+    opacity: 0.6;
+}
+#middle-section  p{
+    opacity: 0.6;
+    font-style: italic;
+}
+#middle-button{
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    border: none;
+    margin-top: 5px;
+    padding: 7px;
+
+}
+#middle-button a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+.div{
+ display: flex;
+
+}
+.item {
+  text-align: center;
+  color:#fff;
+  margin-top:1.1rem ;
+}
+#traning{
+   
+  height: 11rem;
+ 
+
+ 
+}
+#traning h1{
+    text-align: center;
+    margin-right:1.7rem ;
+    
+}
+.item p{
+    padding: 05px;
+    
+}
+#courses h3{
+    text-align: center;
+    font-size: 2.2rem;
+}
+.course{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    
+}
+.course .text{
+    margin-left: 1rem;
+    line-height: 13px;
+    margin-top: .75rem;
+}
+.course .text p{
+    opacity: .6;
+}
+#contact {
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  #contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #contact .contact-form ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+  }
+  #contact .contact-form ul li a {
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  #contact .contact-form ul li a:hover {
+    opacity: 0.8;
+  }
+  .btn .btn-block:active{
+    color: black;
+}
+.btn .btn-blockform:hover{
+    color: black;
+}
